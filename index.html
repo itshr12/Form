@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    </head>
+    <body>
+        <h1>Registration Form for <i>College</i></h1>
+        <hr/>
+        <p>Please enter proper information and <b>verify</b> before submit</p>
+        <hr/>
+        <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+            <p>Name :
+            <input type="text" name="name"/></p>
+            <p>Roll No: <input type="text" name="roll"/> </p>
+            <p>Mobile: <input type="text" name="mobile"/> </p>
+            <p>Adhar no. <input type="text" name="addr"/> </p>
+            <p>Education: <select name="edu">
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+            </select></p>
+            <p>Date of Birth: <input type="date" name="date"/> </p>
+            <p>Choose Trade:
+                <input type="checkbox" name="trade" value="Cse"/>Cse
+                <input type="checkbox" name="trade" value="EE"/>EE
+                <input type="checkbox" name="trade" value="ME"/>ME
+                <input type="checkbox" name="trade" value="Civil"/>Civil
+            </p>
+            <p>Upload 10th DMC <input type="file" name="dmc10"/> </p>
+            <p>Upload 12th DMC <input type="file" name="dmc12"/> </p>
+            <p>Email: <input type="email" name="email"/> </p>
+            <input type="submit" value="submit"/>
+        </fieldset>
+        </form>
+    </body>
+</html>
